@@ -10,6 +10,7 @@ Backend: A FastAPI-powered REST API that handles business logic and database ope
 Database: SQL-based storage for persistent data (MySQL)
 
 The application allows users to perform CRUD operations seamlessly through the UI, with FastAPI managing requests and responses between the frontend and backend.
+
 Features
 
 User-friendly frontend UI for CRUD operations
@@ -36,6 +37,7 @@ Setup Instructions
 Clone the Repository
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+
 Backend Setup
 
 Navigate to the backend folder:
@@ -73,9 +75,18 @@ Database Setup
 
 Configure your database connection in backend/database.py
 
-Update the MySQL credentials (host, user, password, database name)
+Update the MySQL credentials:
+
+Host
+
+User
+
+Password
+
+Database name
 
 Run migrations or create tables using SQLAlchemy models
+
 Frontend Setup
 
 Navigate to the frontend folder:
@@ -171,6 +182,7 @@ Response:
 {
   "message": "Item deleted successfully"
 }
+
 Notes
 
 You can test all API endpoints using Swagger UI at /docs
